@@ -11,6 +11,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 .logo{
@@ -37,3 +38,33 @@ header {
 }
 
 /*Main Content Section*/
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+div{
+  border: 1px solid black;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column-large{
+  width: 630px;
+}
+
+.column-medium{
+  width: 300px;
+}
+
+.column-small{
+  width: 240px;
+}

@@ -79,11 +79,15 @@ div{
 }
 
 .image-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: Georgia;
   font-size: 30px;
   font-weight: bold;
   color: white;
   height: 300px;
+  text-align: center;
 }
 
 .narrative{
